@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { Reveal } from './Reveal';
 import SectionBorder from './SectionBorder';
 import NeumorphButton from './NeumorphButton';
-import BlogCardDB from './cards/BlogCard';
+// import BlogCardDB from './cards/BlogCard';
 import ReadingCard from './cards/ReadingCard';
 import type { Post } from '@/lib/posts';
 
@@ -25,13 +25,14 @@ function usePosts(type: 'blog' | 'reading' | 'thought', limit: number) {
 }
 
 export default function DynamicContentSections() {
-  const { posts: blogs, loading: blogsLoading } = usePosts('blog', 3);
+  // const { posts: blogs, loading: blogsLoading } = usePosts('blog', 3);
   const { posts: readings, loading: readingsLoading } = usePosts('reading', 2);
   const { posts: thoughts, loading: thoughtsLoading } = usePosts('thought', 3);
 
   return (
     <>
-      {/* Blogs Section */}
+      {/* Blogs Section (Disabled/Commented out for now - uncomment when ready) */}
+      {/*
       <Reveal delay={0.1}>
         <div className="sm:px-12 py-2">
           <div className="px-4 mb-4 sm:mb-6 mt-4 sm:mt-6 flex items-center gap-2 sm:gap-3 flex-wrap text-base sm:text-xl font-[family-name:var(--font-instrument-serif)]">
@@ -63,6 +64,7 @@ export default function DynamicContentSections() {
       <Reveal delay={0.05}>
         <SectionBorder className="mt-0 pt-0" />
       </Reveal>
+      */}
 
       {/* My Readings Section */}
       <Reveal delay={0.1}>

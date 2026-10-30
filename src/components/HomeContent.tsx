@@ -15,10 +15,10 @@ import TechStackMarquee from './TechStackMarquee'
 import { Reveal } from './Reveal'
 import { projects } from '@/data/projects'
 import { MasonryProjectCard } from './MasonryProjectCard'
-import { designs } from '@/data/design'
-import { sponsors } from '@/data/sponsors'
-import SponsorShowcase from './SponsorShowcase'
-import SponsorButton from './SponsorButton'
+// import { designs } from '@/data/design'
+// import { sponsors } from '@/data/sponsors'
+// import SponsorShowcase from './SponsorShowcase'
+// import SponsorButton from './SponsorButton'
 import NeumorphButton from './NeumorphButton'
 import CertificateSection from './CertificateSection'
 import DynamicContentSections from './DynamicContentSections'
@@ -27,20 +27,14 @@ export default function NewHeroSection() {
   return (
     <div className="min-h-screen transition-colors duration-300 relative" style={{ fontFamily: 'var(--font-hk-grotesk)' }}>
       <div className="relative mx-auto max-w-4xl">
-        {/* Diagonal Patterns */}
         <DiagonalPattern side="left" />
         <DiagonalPattern side="right" />
 
-        {/* Main Content */}
         <div className="mx-auto sm:w-[calc(100%-120px)] w-full max-w-4xl sm:px-0">
-          {/* Banner Section */}
           <Reveal delay={0.1}>
-            <BannerSection
-              quote="You make your own luck if you stay at it long enough."
-            />
+            <BannerSection quote="You make your own luck if you stay at it long enough." />
           </Reveal>
 
-          {/* Profile Header */}
           <Reveal delay={0.2}>
             <ProfileHeader
               name="Ashirwad Singh"
@@ -58,16 +52,10 @@ export default function NewHeroSection() {
             />
           </Reveal>
 
-          {/* Content Prose */}
           <div className="prose dark:prose-invert max-w-none">
             <div className="text-base">
-              {/* Current Role Section */}
               <Reveal delay={0.1}>
-                <ContentSection
-                  subtitle="AI Engineer | Full-stack Developer"
-                  title=''
-                  className="mt-6"
-                >
+                <ContentSection subtitle="AI Engineer | Full-stack Developer" title='' className="mt-6">
                   <div></div>
                 </ContentSection>
               </Reveal>
@@ -76,7 +64,6 @@ export default function NewHeroSection() {
                 <SectionBorder className="mt-6" />
               </Reveal>
 
-              {/* About Section */}
               <Reveal delay={0.1}>
                 <ContentSection className="pb-6 sm:pb-8 pt-4 sm:pt-6 px-2 sm:px-0">
                   <ContentParagraph className="mb-2 text-base sm:text-lg">
@@ -89,7 +76,6 @@ export default function NewHeroSection() {
                 <SectionBorder className="mt-6" />
               </Reveal>
 
-              {/* Experience Section */}
               <Reveal delay={0.1}>
                 <div className="sm:px-12 py-2">
                   <h2 className="text-base sm:text-xl mb-3 opacity-20 mt-4 sm:mt-6 px-4 font-[family-name:var(--font-instrument-serif)]">Professional Experience</h2>
@@ -111,10 +97,11 @@ export default function NewHeroSection() {
                     <Link href="/projects" className="opacity-20 hover:opacity-100 transition-opacity text-black dark:text-white cursor-pointer">
                       Web App ({projects.length})
                     </Link>
-                    <span className="opacity-20">•</span>
+                    {/* Design link - disabled / commented out */}
+                    {/* <span className="opacity-20">•</span>
                     <Link href="/design" className="opacity-20 hover:opacity-100 transition-opacity text-black dark:text-white cursor-pointer">
                       Design ({designs.length})
-                    </Link>
+                    </Link> */}
                   </div>
                   <div className="px-4">
                     <div className="grid grid-cols-1 gap-4 sm:gap-3 sm:grid-cols-2 group">
@@ -138,7 +125,7 @@ export default function NewHeroSection() {
                 <SectionBorder className="mt-0 pt-0" />
               </Reveal>
 
-              {/* Blogs, Readings, Thoughts — Dynamic from D1 */}
+              {/* Dynamic Sections (Readings, Thoughts; Blogs disabled) */}
               <DynamicContentSections />
 
               <Reveal delay={0.05}>
@@ -157,11 +144,11 @@ export default function NewHeroSection() {
                 </div>
               </Reveal>
 
+              {/* Sponsors Section (Disabled/Commented out for now - uncomment when ready) */}
+              {/*
               <Reveal delay={0.05}>
                 <SectionBorder className="mt-4 pt-0" />
               </Reveal>
-
-              {/* Sponsors Section */}
               <Reveal delay={0.1}>
                 <div className="sm:px-12 py-2">
                   <div className="px-4 mb-4 sm:mb-6 mt-4 sm:mt-6 flex items-center justify-between">
@@ -184,9 +171,10 @@ export default function NewHeroSection() {
                   </div>
                 </div>
               </Reveal>
+              */}
 
               <Reveal delay={0.05}>
-                <SectionBorder className="mt-0 pt-0" />
+                <SectionBorder className="mt-4 pt-0" />
               </Reveal>
 
               {/* GitHub Contributions */}
@@ -222,11 +210,7 @@ export default function NewHeroSection() {
                 <SectionBorder className="mt-0 pt-0" />
               </Reveal>
 
-              <Reveal delay={0.05}>
-                <SectionBorder className="mt-4 pt-0" />
-              </Reveal>
-
-              {/* call to action*/}
+              {/* Call to action */}
               <Reveal delay={0.1}>
                 <div className="px-4 sm:px-12">
                   <CallToAction />

@@ -1,6 +1,7 @@
 import { BlogPost } from '@/types/blog'
 
 export const blogs: BlogPost[] = [
+  /*
   {
     id: 'elon-musk-tweets',
     title: 'Elon Musk Tweets 200 Million Phones Explode With Notifications. Here\'s How',
@@ -37,6 +38,7 @@ export const blogs: BlogPost[] = [
     readTime: '12 min read',
     externalUrl: 'https://blog-t7labs.pages.dev/blog/misc/water-ripple-hover-effect'
   }
+  */
 ]
 
 export const getBlogById = (id: string): BlogPost | undefined => {
