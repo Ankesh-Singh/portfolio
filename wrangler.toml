@@ -1,0 +1,13 @@
+name = "cv-aash7"
+compatibility_date = "2026-06-05"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = ".vercel/output/static"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "aash7-db"
+database_id = "83673477-2706-4133-81d7-267dd69cbf19"
+
+[[r2_buckets]]
+binding = "R2"
+bucket_name = "assh"

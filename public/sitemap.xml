@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Main Pages -->
+  <url>
+    <loc>https://www.aash7.xyz/</loc>
+    <lastmod>2026-04-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.aash7.xyz/p1.jpg</image:loc>
+      <image:title>Ashirwad Singh - Portfolio</image:title>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://www.aash7.xyz/projects</loc>
+    <lastmod>2026-04-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.aash7.xyz/blogs</loc>
+    <lastmod>2026-04-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Individual Project Pages -->
+  <url>
+    <loc>https://www.aash7.xyz/projects/reposense</loc>
+    <lastmod>2026-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://pub-9758b1e5cf4842b287daf6ca545a773f.r2.dev/image/reposense.png</image:loc>
+      <image:title>RepoSense - AI-powered conversational workspaces</image:title>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://www.aash7.xyz/projects/blitzr</loc>
+    <lastmod>2026-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://pub-9758b1e5cf4842b287daf6ca545a773f.r2.dev/image/chess.png</image:loc>
+      <image:title>Blitzr - Real-time multiplayer chess platform</image:title>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://www.aash7.xyz/projects/devrooms</loc>
+    <lastmod>2026-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://pub-9758b1e5cf4842b287daf6ca545a773f.r2.dev/image/devfinder.png</image:loc>
+      <image:title>DevRooms - Real-time developer collaboration platform</image:title>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://www.aash7.xyz/projects/linkedin-free-search</loc>
+    <lastmod>2026-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://pub-9758b1e5cf4842b287daf6ca545a773f.r2.dev/image/linkedin-extractor.png</image:loc>
+      <image:title>LinkedIn Free Search - Chrome extension for lead extraction</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.aash7.xyz/projects/amber-films-studio</loc>
+    <lastmod>2026-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://pub-9758b1e5cf4842b287daf6ca545a773f.r2.dev/image/amber.png</image:loc>
+      <image:title>Amber Films Studio - Cinematic storytelling studio website</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.aash7.xyz/projects/callclarity</loc>
+    <lastmod>2026-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://pub-9758b1e5cf4842b287daf6ca545a773f.r2.dev/image/callcalrity.png</image:loc>
+      <image:title>CallClarity - AI call intelligence platform</image:title>
+    </image:image>
+  </url>
+  
+</urlset>
