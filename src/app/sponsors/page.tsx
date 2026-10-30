@@ -2,7 +2,7 @@ import { sponsors } from '@/data/sponsors'
 import SponsorsListClient from '@/components/SponsorsListClient'
 
 export const metadata = {
-  title: 'Sponsors | Ashirwad Singh',
+  title: 'Sponsors | Ankesh Singh',
   description: 'People who support my open source work',
 }
 

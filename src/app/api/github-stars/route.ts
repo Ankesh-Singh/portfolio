@@ -6,7 +6,7 @@ export const runtime = 'edge';
 export async function GET(request: NextRequest) {
   try {
     const { searchParams } = new URL(request.url)
-    const owner = searchParams.get('owner') || 'AshirwadSingh'
+    const owner = searchParams.get('owner') || 'Ankesh-Singh'
     const repo = searchParams.get('repo') || 'portfolio'
     
     const stars = await fetchRepositoryStars(owner, repo)

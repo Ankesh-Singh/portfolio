@@ -32,22 +32,21 @@ export default function NewHeroSection() {
 
         <div className="mx-auto sm:w-[calc(100%-120px)] w-full max-w-4xl sm:px-0">
           <Reveal delay={0.1}>
-            <BannerSection quote="You make your own luck if you stay at it long enough." />
+            <BannerSection quote="Luck is what happens when preparation meets persistence." />
           </Reveal>
 
           <Reveal delay={0.2}>
             <ProfileHeader
-              name="Ashirwad Singh"
-              age="23"
+              name="Ankesh Singh"
+              age="21"
               title="engineer • developer • builder"
               profileImage="/p1.jpg"
               socialLinks={{
                 twitter: "https://x.com/ashirwadsingh_",
-                github: "https://github.com/Ethan4582",
-                linkedin: "https://www.linkedin.com/in/ashirwad08singh/",
+                github: "https://github.com/Ankesh-Singh",
+                linkedin: "https://www.linkedin.com/in/ankeshsingh07/",
                 resume: "https://drive.google.com/file/d/1fJl_OfnRFHpdamvF_0IGb7rFwDDxje4d/view",
                 LeetCode: "https://leetcode.com/u/Ethan038/",
-                Substack: "https://substack.com/@ashirwadsingh",
               }}
             />
           </Reveal>
@@ -76,6 +75,8 @@ export default function NewHeroSection() {
                 <SectionBorder className="mt-6" />
               </Reveal>
 
+              {/* Experience Section (Disabled for now) */}
+              {/*
               <Reveal delay={0.1}>
                 <div className="sm:px-12 py-2">
                   <h2 className="text-base sm:text-xl mb-3 opacity-20 mt-4 sm:mt-6 px-4 font-[family-name:var(--font-instrument-serif)]">Professional Experience</h2>
@@ -88,6 +89,7 @@ export default function NewHeroSection() {
               <Reveal delay={0.05}>
                 <SectionBorder className="mt-4" />
               </Reveal>
+              */}
 
               {/* Proof of Work */}
               <Reveal delay={0.1}>
@@ -154,7 +156,7 @@ export default function NewHeroSection() {
                   <div className="px-4 mb-4 sm:mb-6 mt-4 sm:mt-6 flex items-center justify-between">
                     <h2 className="text-base sm:text-xl opacity-20 font-[family-name:var(--font-instrument-serif)]">Sponsors</h2>
                     <SponsorButton
-                      href="https://github.com/sponsors/Ethan4582"
+                      href="https://github.com/sponsors/Ankesh-Singh"
                       tooltipText="Support my open source work"
                     />
                   </div>
@@ -181,11 +183,11 @@ export default function NewHeroSection() {
               <Reveal delay={0.1}>
                 <div className="sm:px-12 px-0 mt-4">
                   <h2 className="text-base font-[family-name:var(--font-instrument-serif)] sm:text-xl opacity-20 leading-relaxed -tracking-[0.01em] mb-4 px-4">
-                    GitHub Contributions <span className="opacity-20">●</span> @Ethan4582
+                    GitHub Contributions <span className="opacity-20">●</span> @Ankesh-Singh
                   </h2>
                   <div className="mb-4 sm:mb-6">
                     <ContributionsDisplay
-                      username="Ethan4582"
+                      username="Ankesh-Singh"
                       variant="compact"
                       className="w-full"
                     />

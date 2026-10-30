@@ -6,7 +6,7 @@ export const runtime = 'edge';
 export async function GET(request: NextRequest) {
   try {
     const { searchParams } = new URL(request.url)
-    const username = searchParams.get('username') || 'Ethan4582'
+    const username = searchParams.get('username') || 'Ankesh-Singh'
     const limit = parseInt(searchParams.get('limit') || '50')
     
     const contributions = await fetchUserPullRequests(username, limit)

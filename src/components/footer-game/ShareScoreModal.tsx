@@ -27,12 +27,12 @@ export function ShareScoreModal({
   const siteUrl = 'https://aash7.xyz';
   const isNewRecord = score >= highScore && score > 0;
 
-  const twitterText = `🎮 Just played Bunny Run on Ashirwad's portfolio! 🐰⚡\n\n🏆 Score: ${score} pts\nCan you beat my high score? 👇\n${siteUrl}`;
+  const twitterText = `🎮 Just played Bunny Run on Ankesh's portfolio! 🐰⚡\n\n🏆 Score: ${score} pts\nCan you beat my high score? 👇\n${siteUrl}`;
   const twitterIntentUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(
     twitterText
   )}`;
 
-  const fullScoreText = `🎮 Bunny Run — Ashirwad Singh Portfolio\n🏆 Score: ${score} pts 🐰\nTry to beat my score: ${siteUrl}`;
+  const fullScoreText = `🎮 Bunny Run — Ankesh Singh Portfolio\n🏆 Score: ${score} pts 🐰\nTry to beat my score: ${siteUrl}`;
 
   const handleCopyScoreCard = async () => {
     try {
@@ -176,7 +176,7 @@ export function ShareScoreModal({
           <div className="relative aspect-[1200/630] w-full">
             <Image
               src="/open-graph.png"
-              alt="Ashirwad Singh Portfolio"
+              alt="Ankesh Singh Portfolio"
               fill
               className="object-cover"
             />

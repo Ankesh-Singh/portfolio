@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   return {
-    title: `${blog.title || 'Blog'} | Ashirwad Singh`,
+    title: `${blog.title || 'Blog'} | Ankesh Singh`,
     description: blog.title || 'Blog post',
     openGraph: {
       title: blog.title || 'Blog',

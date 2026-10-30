@@ -1,6 +1,4 @@
 import { FaPaperclip } from "react-icons/fa6";
-// import { Moon, Sun } from 'lucide-react';
-// import { useTheme } from 'next-themes';
 import * as React from 'react';
 import { Tooltip, TooltipContent, TooltipTrigger } from '@/components/ui/tooltip';
 import PortfolioStars from './PortfolioStars';
@@ -23,25 +21,18 @@ interface ProfileHeaderProps {
 }
 
 export default function ProfileHeader({
-  name = "Ashirwad Singh",
+  name = "Ankesh Singh",
   age = "21",
   title = "engineer • developer • builder",
   profileImage = "/p1.jpg",
   socialLinks = {
-    twitter: "https://x.com/ashirwadsingh_",
-    github: "https://github.com/Ethan4582",
-    linkedin: "https://www.linkedin.com/in/ashirwad-singh/",
+    twitter: "",
+    github: "https://github.com/Ankesh-Singh",
+    linkedin: "https://www.linkedin.com/in/ankeshsingh07/",
     resume: "https://drive.google.com/file/d/1fJl_OfnRFHpdamvF_0IGb7rFwDDxje4d/view",
     LeetCode: "https://leetcode.com/u/Ethan038/",
   }
 }: ProfileHeaderProps) {
-  // const { theme, setTheme } = useTheme();
-  // const [mounted, setMounted] = React.useState(false);
-
-  // React.useEffect(() => {
-  //   setMounted(true);
-  // }, []);
-
   return (
     <div className="flex-col -mt-10">
       <div className="flex items-center justify-between mb-4 sm:ml-8 ml-4 sm:mr-8 mr-4">
@@ -184,37 +175,6 @@ export default function ProfileHeader({
               </TooltipTrigger>
               <TooltipContent>
                 LeetCode
-              </TooltipContent>
-            </Tooltip>
-          )}
-          {socialLinks.Substack && (
-            <Tooltip>
-              <TooltipTrigger asChild>
-                <a
-                  className="touch-manipulation active:opacity-75 flex items-center justify-center w-8 h-8 sm:w-8 sm:h-8"
-                  href={socialLinks.Substack}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{
-                    WebkitTapHighlightColor: 'transparent',
-                    WebkitTouchCallout: 'none',
-                    WebkitUserSelect: 'none',
-                    userSelect: 'none'
-                  }}
-                >
-                  <NeumorphButton className="flex items-center justify-center w-8 h-8 sm:w-8 sm:h-8 rounded-full overflow-hidden">
-                    <Image
-                      src="/logo/substack-icon.svg"
-                      alt="Substack"
-                      width={14}
-                      height={14}
-                      className="object-contain"
-                    />
-                  </NeumorphButton>
-                </a>
-              </TooltipTrigger>
-              <TooltipContent>
-                Substack
               </TooltipContent>
             </Tooltip>
           )}

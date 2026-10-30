@@ -26,18 +26,18 @@ const instrumentSerif = Instrument_Serif({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://aash7.xyz'),
-  title: 'Ashirwad Singh',
+  title: 'Ankesh Singh',
   description: 'I build products that solve real problems. Available for new opportunities.',
   openGraph: {
     url: 'https://aash7.xyz/',
-    siteName: 'Ashirwad Singh Portfolio',
+    siteName: 'Ankesh Singh Portfolio',
     locale: 'en_US',
     type: 'website',
     images: [{
       url: '/open-graph.png',
       width: 1200,
       height: 630,
-      alt: 'Ashirwad Singh - Portfolio'
+      alt: 'Ankesh Singh - Portfolio'
     }],
   },
 };

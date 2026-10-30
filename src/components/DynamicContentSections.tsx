@@ -1,14 +1,15 @@
 'use client';
 
-import { useEffect, useState } from 'react';
-import Link from 'next/link';
-import { Reveal } from './Reveal';
-import SectionBorder from './SectionBorder';
-import NeumorphButton from './NeumorphButton';
+// import { useEffect, useState } from 'react';
+// import Link from 'next/link';
+// import { Reveal } from './Reveal';
+// import SectionBorder from './SectionBorder';
+// import NeumorphButton from './NeumorphButton';
 // import BlogCardDB from './cards/BlogCard';
-import ReadingCard from './cards/ReadingCard';
-import type { Post } from '@/lib/posts';
+// import ReadingCard from './cards/ReadingCard';
+// import type { Post } from '@/lib/posts';
 
+/*
 function usePosts(type: 'blog' | 'reading' | 'thought', limit: number) {
   const [posts, setPosts] = useState<Post[]>([]);
   const [loading, setLoading] = useState(true);
@@ -23,11 +24,12 @@ function usePosts(type: 'blog' | 'reading' | 'thought', limit: number) {
 
   return { posts, loading };
 }
+*/
 
 export default function DynamicContentSections() {
   // const { posts: blogs, loading: blogsLoading } = usePosts('blog', 3);
-  const { posts: readings, loading: readingsLoading } = usePosts('reading', 2);
-  const { posts: thoughts, loading: thoughtsLoading } = usePosts('thought', 3);
+  // const { posts: readings, loading: readingsLoading } = usePosts('reading', 2);
+  // const { posts: thoughts, loading: thoughtsLoading } = usePosts('thought', 3);
 
   return (
     <>
@@ -66,7 +68,8 @@ export default function DynamicContentSections() {
       </Reveal>
       */}
 
-      {/* My Readings Section */}
+      {/* My Readings Section (Disabled/Commented out for now - uncomment when ready) */}
+      {/*
       <Reveal delay={0.1}>
         <div className="sm:px-12 py-2">
           <div className="px-4 mb-4 sm:mb-6 mt-4 sm:mt-6">
@@ -98,8 +101,10 @@ export default function DynamicContentSections() {
       <Reveal delay={0.05}>
         <SectionBorder className="mt-0 pt-0" />
       </Reveal>
+      */}
 
-      {/* Thoughts Section */}
+      {/* Thoughts Section (Disabled/Commented out for now - uncomment when ready) */}
+      {/*
       <Reveal delay={0.1}>
         <div className="sm:px-12 py-2">
           <div className="px-4 mb-4 sm:mb-6 mt-4 sm:mt-6">
@@ -134,6 +139,7 @@ export default function DynamicContentSections() {
           </div>
         </div>
       </Reveal>
+      */}
     </>
   );
 }

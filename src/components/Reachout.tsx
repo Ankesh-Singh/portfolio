@@ -25,10 +25,10 @@ export default function Reachout({
   subtitle = "Find me on these platforms",
   socialLinks = {
     twitter: "https://x.com/ashirwadsingh_",
-    github: "https://github.com/Ethan4582",
+    github: "https://github.com/Ankesh-Singh",
     resume: "https://drive.google.com/file/d/1fJl_OfnRFHpdamvF_0IGb7rFwDDxje4d/view",
-    linkedin: "https://www.linkedin.com/in/ashirwad-singh/",
-    mail: "singhashirwad2003@gmail.com",
+    linkedin: "https://www.linkedin.com/in/ankeshsingh07/",
+    mail: "singhankesh161@gmail.com",
   }
 }: ReachoutProps) {
   return (
@@ -52,17 +52,17 @@ export default function Reachout({
                     <div className="flex items-center gap-3">
                       <Image
                         src="/p1.jpg"
-                        alt="Ashirwad Singh"
+                        alt="Ankesh Singh"
                         width={56}
                         height={56}
                         className="h-14 w-14 rounded-full object-cover"
                       />
                       <div>
                         <p className="text-sm font-semibold text-neutral-900 dark:text-neutral-50">
-                          Ashirwad Singh
+                          Ankesh Singh
                         </p>
                         <p className="text-xs text-neutral-500 dark:text-neutral-400">
-                          @Ethan4582 · he/him
+                          @Ankesh-Singh · he/him
                         </p>
                       </div>
                     </div>
@@ -176,7 +176,7 @@ export default function Reachout({
           )}
 
           {socialLinks.mail && (
-            <Tooltip content="singhashirwad2003@gmail.com" padded>
+            <Tooltip content="singhankesh161@gmail.com" padded>
               <a
                 className="touch-manipulation active:opacity-75"
                 href={socialLinks.mail}
@@ -228,7 +228,7 @@ export default function Reachout({
         <div className="mt-6 sm:mt-8 pt-4 sm:pt-6 border-t border-gray-200 dark:border-gray-800">
           <div className="flex flex-col items-center space-y-2 sm:flex-row sm:justify-between sm:items-center sm:space-y-0 text-center sm:text-left">
             <div className="text-sm sm:text-md dark:text-white/40 text-black/40">
-              © {new Date().getFullYear()} Ashirwad Singh.
+              © {new Date().getFullYear()} Ankesh Singh.
             </div>
           </div>
           <FooterGameSection />

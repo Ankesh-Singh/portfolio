@@ -17,7 +17,7 @@ interface SponsorShowcaseProps {
 export default function SponsorShowcase({ 
   sponsors, 
   className = '',
-  sponsorUrl = 'https://github.com/sponsors/Ethan4582',
+  sponsorUrl = 'https://github.com/sponsors/Ankesh-Singh',
   showEmptySlot = true,
 }: SponsorShowcaseProps) {
   if (sponsors.length === 0) {

@@ -10,7 +10,7 @@ interface BannerSectionProps {
 }
 
 export default function BannerSection({ 
-  quote = "You make your own luck if you stay at it long enough.",
+  quote = "Luck is what happens when preparation meets persistence.",
   bannerImage,
 }: BannerSectionProps) {
   const [currentIndex, setCurrentIndex] = useState(0)
