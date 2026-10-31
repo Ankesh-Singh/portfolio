@@ -7,7 +7,7 @@ export const projects: Project[] = [
     description: "Turn any GitHub repo into an interactive wiki you can chat with and explore in seconds.",
     longDescription:
       "RepoSense scans your GitHub repo to build a clear, interactive wiki for your code. Just ask questions in plain English to understand how everything works, with direct links to the exact lines of code.",
-    liveLink: "https://reposense.aash7.xyz/",
+    liveLink: "http://reposense.aanks.xyz/",
     githubLink: "https://github.com/Ankesh-Singh/reposense",
     video: "",
     image: "https://pub-9758b1e5cf4842b287daf6ca545a773f.r2.dev/image/reposense.png",
@@ -33,7 +33,7 @@ export const projects: Project[] = [
     description: "Fast link shortener that redirects in milliseconds and tracks where your clicks come from.",
     longDescription:
       "Create clean, custom short links that send visitors to their destination at lightning speed. Includes a live dashboard to see clicks, visitor locations, and real-time link performance.",
-    liveLink: "https://snip.aash7.xyz/",
+    liveLink: "https://snip.aanks.xyz/",
     githubLink: "https://github.com/Ankesh-Singh/snip",
     video: "",
     image: "https://pub-9758b1e5cf4842b287daf6ca545a773f.r2.dev/image/r7.png",
@@ -57,7 +57,7 @@ export const projects: Project[] = [
     description: "Play real-time chess online with friends, spectate live games, and review mistakes.",
     longDescription:
       "A fast multiplayer chess app where you can challenge opponents, chat during matches, and climb the leaderboard. When the game ends, review move-by-move breakdowns to spot blunders and improve.",
-    liveLink: "https://blitzr.vercel.app/",
+    liveLink: "https://blitzr.aanks.xyz/",
     githubLink: "https://github.com/Ankesh-Singh/Blitzr",
     video: "",
     image: "https://pub-9758b1e5cf4842b287daf6ca545a773f.r2.dev/image/chess.png",
@@ -70,8 +70,8 @@ export const projects: Project[] = [
     description: "Virtual rooms where developers code together in real time with built-in video chat.",
     longDescription:
       "Hop into collaborative coding rooms with team members, jump on a live video call, and sync up your GitHub projects in one shared browser workspace.",
-    liveLink: "https://dev-finder-amber-chi.vercel.app",
-    githubLink: "https://github.com/Ethan4582/dev-rooms",
+    liveLink: "https://devfinder.aanks.xyz",
+    githubLink: "https://github.com/Ankesh-Singh/dev-rooms",
     video: "",
     image: "https://pub-9758b1e5cf4842b287daf6ca545a773f.r2.dev/image/devfinder.png",
     tags: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "TailwindCSS", "Shadcn UI", "Framer Motion", "NextAuth", "GetStream SDK"],
@@ -141,7 +141,7 @@ export const projects: Project[] = [
     description: "Local business review platform where shoppers share honest feedback and discover stores.",
     longDescription:
       "Find nearby neighborhood spots, read authentic reviews from fellow customers, and leave your own star ratings and feedback to help others shop local.",
-    liveLink: "https://store-rate.vercel.app/",
+    liveLink: "storerates.aanks.xyz",
     githubLink: "https://github.com/Ankesh-Singh/StoreRate",
     video: "",
     image: "https://pub-9758b1e5cf4842b287daf6ca545a773f.r2.dev/image/storerate.png",

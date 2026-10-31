@@ -24,7 +24,7 @@ export default function Reachout({
   title = "Let's connect",
   subtitle = "Find me on these platforms",
   socialLinks = {
-    twitter: "https://x.com/ashirwadsingh_",
+    twitter: "https://x.com/Ankesh_Singh385",
     github: "https://github.com/Ankesh-Singh",
     resume: "https://drive.google.com/file/d/1fJl_OfnRFHpdamvF_0IGb7rFwDDxje4d/view",
     linkedin: "https://www.linkedin.com/in/ankeshsingh07/",

@@ -16,7 +16,6 @@ const hkGrotesk = Hanken_Grotesk({
   display: 'swap',
 })
 
-
 const instrumentSerif = Instrument_Serif({
   weight: ['400'],
   style: 'normal',
@@ -39,6 +38,12 @@ export const metadata: Metadata = {
       height: 630,
       alt: 'Ankesh Singh - Portfolio'
     }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Ankesh Singh',
+    description: 'I build products that solve real problems. Available for new opportunities.',
+    images: ['/open-graph.png'],
   },
 };
 
@@ -68,7 +73,6 @@ export default function RootLayout({
           <ClickSoundProvider />
           <DevtoolsMeme />
         </ThemeProvider>
-    
       </body>
     </html>
   );

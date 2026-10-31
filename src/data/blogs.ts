@@ -6,13 +6,13 @@ export const blogs: BlogPost[] = [
     id: 'elon-musk-tweets',
     title: 'Elon Musk Tweets 200 Million Phones Explode With Notifications. Here\'s How',
     readTime: '30 min read',
-    externalUrl: 'https://x.com/ashirwadsingh_/status/2067609228261396936'
+    externalUrl: 'https://x.com/Ankesh_Singh385/status/2067609228261396936'
   },
   {
     id: 'aash7-417206',
     title: '3.6 Billion Daily Plays. One Real-Time Leaderboard.  Here\'s How (Most Get It Wrong)',
     readTime: '15 min read',
-    externalUrl: 'https://x.com/ashirwadsingh_/status/2065673693922238680'
+    externalUrl: 'https://x.com/Ankesh_Singh385/status/2065673693922238680'
   },
   {
     id: 'tts-system',
