@@ -26,7 +26,7 @@ export default function Reachout({
   socialLinks = {
     twitter: "https://x.com/Ankesh_Singh385",
     github: "https://github.com/Ankesh-Singh",
-    resume: "https://drive.google.com/file/d/1fJl_OfnRFHpdamvF_0IGb7rFwDDxje4d/view",
+    resume: "https://drive.google.com/file/d/1sU-CHnUOCgSduOY-VIBuLobFIPO9uEJl/view",
     linkedin: "https://www.linkedin.com/in/ankeshsingh07/",
     mail: "singhankesh161@gmail.com",
   }

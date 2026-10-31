@@ -45,7 +45,7 @@ export default function NewHeroSection() {
                 twitter: "https://x.com/Ankesh_Singh385",
                 github: "https://github.com/Ankesh-Singh",
                 linkedin: "https://www.linkedin.com/in/ankeshsingh07/",
-                resume: "https://drive.google.com/file/d/1fJl_OfnRFHpdamvF_0IGb7rFwDDxje4d/view",
+                resume: "https://drive.google.com/file/d/1sU-CHnUOCgSduOY-VIBuLobFIPO9uEJl/view",
                 LeetCode: "https://leetcode.com/u/Ethan038/",
               }}
             />
