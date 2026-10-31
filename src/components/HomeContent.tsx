@@ -135,7 +135,7 @@ export default function NewHeroSection() {
               </Reveal>
 
               {/* Certifications Section */}
-              <Reveal delay={0.1}>
+              {/* <Reveal delay={0.1}>
                 <div className="sm:px-12 py-2">
                   <div className="px-4 mb-4 sm:mb-6 mt-4 sm:mt-6">
                     <h2 className="text-base sm:text-xl opacity-20 font-[family-name:var(--font-instrument-serif)]">Certifications</h2>
@@ -144,7 +144,7 @@ export default function NewHeroSection() {
                     <CertificateSection />
                   </div>
                 </div>
-              </Reveal>
+              </Reveal> */}
 
               {/* Sponsors Section (Disabled/Commented out for now - uncomment when ready) */}
               {/*
